@@ -27,6 +27,12 @@ def go_summary():
 
 # ===================== MAIN PAGE =====================
 def main_page():
+
+    if "q1Score" in st.session_state:
+       st.session_state.q1Score = None
+       st.session_state.q2Score = None
+       st.session_state.q3Score = None
+    
     if "totalScore" not in st.session_state:
         score = 0
     else:
