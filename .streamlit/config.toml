@@ -1,0 +1,6 @@
+[theme]
+base="light"
+primaryColor = "#6e8575"                # Accent / buttons
+backgroundColor = "#ffffff"             # Main background white
+secondaryBackgroundColor = "#f0f0f0"   # Panels / sidebar background light gray
+textColor = "#000000"                   # Black text
