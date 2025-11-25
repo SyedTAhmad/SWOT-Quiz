@@ -926,7 +926,7 @@ def summary_page():
         """, unsafe_allow_html=True)
     st.write("")
     st.write("")
-    st.button("Main Menue", on_click=go_main)
+    st.button("Main Menu", on_click=go_main)
 
 # ===================== ROUTER =====================
 if st.session_state.page == "main":
