@@ -744,13 +744,13 @@ export default function(component) {
     ];
 
     const correctMap = {
-        "Highly trained baristas": "S",
-        "Cozy atmosphere and loyal customers": "S",
-        "Slow and outdated point-of-sale system": "W",
-        "No mobile app or delivery option": "W",
-        "New office tower being built nearby": "O",
         "Growing demand for mobile ordering": "O",
+        "Highly trained baristas": "S",
+        "Slow and outdated point-of-sale system": "W",
+        "Cozy atmosphere and loyal customers": "S",
+        "No mobile app or delivery option": "W",
         "GlobalBean chain opening on the same street": "T",
+        "New office tower being built nearby": "O",
         "Rising cost of ethically sourced beans": "T"
     };
 
