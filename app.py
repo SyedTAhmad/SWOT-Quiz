@@ -733,24 +733,24 @@ export default function(component) {
     const { setTriggerValue } = component;
 
     const phrases = [
-        "Highly trained baristas",
         "Cozy atmosphere and loyal customers",
+        "GlobalBean chain opening on the same street",
+        "Highly trained baristas",
         "Slow and outdated point-of-sale system",
         "No mobile app or delivery option",
-        "New office tower being built nearby",
         "Growing demand for mobile ordering",
-        "GlobalBean chain opening on the same street",
+        "New office tower being built nearby",
         "Rising cost of ethically sourced beans"
     ];
 
     const correctMap = {
-        "Growing demand for mobile ordering": "O",
         "Highly trained baristas": "S",
-        "Slow and outdated point-of-sale system": "W",
         "Cozy atmosphere and loyal customers": "S",
+        "Slow and outdated point-of-sale system": "W",
         "No mobile app or delivery option": "W",
-        "GlobalBean chain opening on the same street": "T",
         "New office tower being built nearby": "O",
+        "Growing demand for mobile ordering": "O",
+        "GlobalBean chain opening on the same street": "T",
         "Rising cost of ethically sourced beans": "T"
     };
 
